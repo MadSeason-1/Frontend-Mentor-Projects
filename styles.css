@@ -8,8 +8,7 @@ body {
 }
 
 .card {
-  width: 400px;
-  margin: 50px auto;
+  margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 20px;
@@ -42,4 +41,16 @@ body {
   margin: 0;
   padding-bottom: 50px;
   text-align: center;
+}
+
+@media screen and (min-width: 375px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 400px;
+  }
 }
